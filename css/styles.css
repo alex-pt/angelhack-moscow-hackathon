@@ -1,0 +1,103 @@
+
+
+html {
+    /*background: url(images/bg.jpg) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background: url(../images/grey_wash_wall.png) repeat !important;
+}
+
+
+.top-offer{
+    height: 10px;
+}
+
+.top-offer  h2{
+    margin-top:-40px;
+}
+
+.search-container{
+    background-color:#ACE7F2;
+    border-radius: 5px;
+}
+
+.search-fields{
+    padding-left:10px;
+    padding-top:10px;
+}
+
+.tickets{
+    margin-top:-8px;
+}
+
+.ticket{
+    background-color:#C9C6C1;
+    padding:8px;
+    margin:8px;
+    border-radius: 5px;
+}
+
+.ticket-table {
+    width:100%;
+    border-spacing:0px;
+}
+
+.slot{
+    width:200px;
+    height:150px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.site{
+    background-color:rgba(255,255,255,0.9);
+    position:relative;
+    bottom:-42px;
+    height:60px;
+    width:200px;
+    text-align: center;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.moscow{
+    background:url(http://habrastorage.org/storage2/045/121/c40/045121c40aa592172dfb11f58f88d50a.jpeg) no-repeat;
+
+}
+
+.nijnii{
+    background:url(http://habrastorage.org/storage2/267/41d/72f/26741d72fef042cb9fbb8ed471393052.jpg) no-repeat;
+}
+
+.kazan{
+    background:url(http://habrastorage.org/storage2/0d1/594/4d8/0d15944d8c8d07aff401acd26af2141d.jpg) no-repeat;
+}
+
+.novosibirsk{
+    background:url(http://habrastorage.org/storage2/774/99e/2e2/77499e2e2fc757ca513c963d9e01ae92.jpg) no-repeat;
+}
+
+.samara{
+    background:url(http://habrastorage.org/storage2/7ae/c49/703/7aec49703dfad825112c6f93a3643e77.jpg) no-repeat;
+}
+
+.st-petersburg{
+    background:url(http://habrastorage.org/storage2/5b0/588/517/5b0588517e1c4d837b3aeb23aa6bd416.jpg) no-repeat;
+}
+
+.price-block{
+    text-align:center;
+}
+
+.price{
+    font-size:26px;
+}
+
+.main-price {
+    font-size:24px;font-weight:bold;margin-right:50px;
+}

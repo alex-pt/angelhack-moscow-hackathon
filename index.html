@@ -1,0 +1,520 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>main page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="https://raw.github.com/jschr/bootstrap-modal/master/css/bootstrap-modal.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+
+  </head>
+  
+  <body>
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=latin,cyrillic,cyrillic-ext"
+    rel="stylesheet" type="text/css">
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+            <a class="brand" href="#">Поиск дешевых билетов</a>
+            <div class="nav-collapse collapse"></div>
+            <ul class="nav pull-right">
+              <li>
+                <a href="#">Профиль</a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="hero-unit top-offer">
+      	<div class="pull-right" style="display:inline;margin-top:-40px;">
+      	<label class="main-price pull-left">1500</label>
+        <input class="input-small pull-left" style="margin-right:5px;"
+          value="0" type="text"> </div>
+        
+        <h2>Минимальная цена</h2>
+        <a href="#watch_box" data-toggle="modal" class="btn pull-right btn-warning btn-large">Следить</a>
+        <a href="checkout.html" class="btn pull-right btn-warning btn-large" style="margin-right:15px;">Купить</a>
+        <h4>Москва - Казань, вылет в 12:00</h4>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="pull-left span4 search-container">
+          <form class="search-fields">
+            <div class="control-group">
+              <label class="control-label">Параметры поиска</label>
+              <div class="controls ">
+                <select>
+                  <option>Январь</option>
+                  <option>Февраль</option>
+                  <option>Март</option>
+                  <option>Апрель</option>
+                  <option>Май</option>
+                  <option>Июнь</option>
+                  <option>Июль</option>
+                  <option selected="selected">Август</option>
+                  <option>Сентябрь</option>
+                  <option>Октябрь</option>
+                  <option>Ноябрь</option>
+                  <option>Декабрь</option>
+                </select>
+                <label>Дата вылета</label>
+                <input class="input-medium" placeholder="Любая" type="text">
+                <label>Длительность перелета</label>
+                <input class="input-medium" placeholder="Любая"
+                type="text">
+                <label>Откуда</label>
+                <input class="input-medium" placeholder="Любой город" type="text">
+                <label>Куда</label>
+                <input class="input-medium" placeholder="Любой город" type="text">
+                <label>Максимальная цена</label>
+                <input type="range" min="0" max="100" step="1" value="50"/> 
+                <label>Количество пересадок</label>
+                <input type="range" min="0" max="100" step="1" value="50"/> 
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="pull-left span8 tickets">
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ticket">
+                <table class="ticket-table" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="moscow"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                            <!--<div class="site">
+                              <span class="city-first">Москва</span>
+                              <br>
+                              <span>Домодедово</span>
+                              <br>
+                              <span class="time-first">15:00</span>
+                            </div>-->
+                        </td>
+                        <td class="slot">
+                            <div style="width: 100%;height:175px;border-radius: 50%;" class="nijnii"></div>
+                            <div style="text-align: center;">
+                                <span class="city-first">Москва</span>
+                                <br>
+                                <span>Домодедово</span>
+                                <br>
+                                <span class="time-first">15:00</span>
+                            </div>
+                        </td>
+                        <td class="price-block">
+                            <p class="price">1500 рублей</p>
+                            <p class="airlines">S7 Airlines</p>
+                            <p>
+                                <a class="btn btn-primary btn-large do-select">Выбрать</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="watch_box" class="modal hide fade" style="display: none; ">
+        <div class="modal-header">
+            <a class="close" data-dismiss="modal">×</a>
+            <h3>Don't miss a thing1</h3>
+        </div>
+        <div class="modal-body">
+            <h4>Subscribe</h4>
+            <p>Email</p>
+            <p><input type="text" id="email" /></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#watch_box" data-toggle="modal" class="btn btn-success">Start watching!</a>
+            <a href="#" class="btn" data-dismiss="modal">Close</a>
+        </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+  <script src="https://raw.github.com/bigspotteddog/ScrollToFixed/master/jquery-scrolltofixed-min.js"></script>
+  <script src="https://raw.github.com/jschr/bootstrap-modal/master/js/bootstrap-modalmanager.js"></script>
+  <script src="https://raw.github.com/jschr/bootstrap-modal/master/js/bootstrap-modal.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $(".do-select").click(function(){
+              var _ticket = $(this).closest(".ticket");
+
+              $(".top-offer h4").html(
+                                        _ticket.find("span.city-first").html() + ' - '
+                                        + _ticket.find("span.city-second").html()
+                                        + ', вылет в ' + _ticket.find("span.time-first").html()
+              );
+              $(".main-price").html(parseInt(_ticket.find(".price").html()));
+              $('html, body').animate({
+                      scrollTop: $(".top-offer").offset().top
+              }, 1000);
+              $(".top-offer").animate({'background-color': '#AEDB09'}, 'slow', function(){
+                  $(".top-offer").animate({'background-color': '#EEEEEE'}, 'slow');
+              });
+          });
+
+          $('.top-offer').scrollToFixed();
+          $('.search-container').scrollToFixed({ marginTop: 130 });
+          //$('#ajax-modal');
+      });
+  </script>
+  </body>
+
+</html>

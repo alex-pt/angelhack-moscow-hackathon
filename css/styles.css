@@ -62,16 +62,21 @@ body{
     height:60px;
     width:200px;
     text-align: center;
-    border-radius: 50% 50% 50% 50%;
-}
 
+}
+.city {
+    width: 185px;height:185px;border-radius: 50%;
+}
 .moscow{
     background:url(http://habrastorage.org/storage2/045/121/c40/045121c40aa592172dfb11f58f88d50a.jpeg) no-repeat;
-
+    background-size: 135%;
+    border-radius: 50% 50% 50% 50%;
 }
 
 .nijnii{
     background:url(http://habrastorage.org/storage2/267/41d/72f/26741d72fef042cb9fbb8ed471393052.jpg) no-repeat;
+    background-size: 135%;
+    border-radius: 50% 50% 50% 50%;
 }
 
 .kazan{
